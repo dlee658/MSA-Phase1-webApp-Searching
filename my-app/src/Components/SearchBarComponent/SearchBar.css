@@ -1,0 +1,18 @@
+.SearchBarContainer {
+    margin: auto;
+    margin: 20px;
+}
+.txtField{
+    margin-left: 7.5;
+    width: 70%;
+}
+
+/* txtFiled랑 button사이에 5% 간격
+*/
+
+.button{
+    margin-left: 5%;
+    margin-right: 7.5%;
+    width: 10%;
+    height: 55px;
+}
