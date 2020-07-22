@@ -43,7 +43,6 @@ function SearchBar(props: ISearchBarProps) {
                     value={SearchQuery}
                     onChange={e => handleSearchQueryChange(e.target.value)}
                 />
-
                 <Button className="button" variant="contained" color="primary" onClick={handleSubmit}>
                     Search
                 </Button>
