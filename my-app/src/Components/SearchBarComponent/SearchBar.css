@@ -1,9 +1,8 @@
 .SearchBarContainer {
     margin: auto;
-    margin: 20px;
+    margin-left: 7.5%;
 }
 .txtField{
-    margin-left: 7.5;
     width: 70%;
 }
 
@@ -11,8 +10,6 @@
 */
 
 .button{
-    margin-left: 5%;
-    margin-right: 7.5%;
     width: 10%;
     height: 55px;
 }

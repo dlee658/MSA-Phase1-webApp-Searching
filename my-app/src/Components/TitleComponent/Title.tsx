@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-
+import './Title.css';
 function Banner() {
     return (
       <div className="BannerContainer">
-            Search
+            Dictionary
       </div>
     );
 }
