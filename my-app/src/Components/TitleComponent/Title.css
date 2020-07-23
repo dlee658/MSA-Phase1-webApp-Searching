@@ -1,9 +1,8 @@
 .TitleContainer{
-    font-style: italic;
-    /*폰트스타일 바꾸고 크기 바꾸기*/
-    /**/
-    margin-top: 30px;
+    font-style: Helventica;
+    margin-top: 40px;
     margin-bottom: 15px;
     text-align: center;
-
+    font-size: 40px;
+    font-weight: bold;
 }
