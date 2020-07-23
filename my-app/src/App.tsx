@@ -14,7 +14,7 @@ function App() {
   function SetUserInput(a: IUserInput) {
     setUserInput(a);    
   }
-/* title.css searchbar.css */
+
   return (
     <div className="App">
           <Title></Title>
