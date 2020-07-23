@@ -1,9 +1,9 @@
-.TitleContainer{
+.Term{
     font-style: italic;
+    color: white;
     /*폰트스타일 바꾸고 크기 바꾸기*/
-    /**/
     margin-top: 30px;
     margin-bottom: 15px;
-    text-align: center;
-
+    margin-left: 7.5%;
+    
 }

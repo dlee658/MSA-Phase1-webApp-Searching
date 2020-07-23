@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
+ import React from 'react';
 import './Title.css';
-function Banner() {
+function Title() {
     return (
-      <div className="BannerContainer">
+      <div className="TitleContainer">
             Dictionary
       </div>
+
     );
 }
 
-export default Banner;
+export default Title;
