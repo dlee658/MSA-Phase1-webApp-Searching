@@ -4,20 +4,21 @@ import { Grid } from '@material-ui/core';
 import './MediaGrid.css';
 
 interface IState {
-    links: any[];
-    data: any[];
+    image: any;
+    description: any;
 }
 interface IMediaGridProps {
     SearchQuery: (string | null);
 }
 function MediaGrid(props: IMediaGridProps) {
-    const [ItemArray, setItemArray] = useState<IState[]>([{ links: [], data: [] }]);
-
+    const [ItemArray, setItemArray] = useState<IState[]>([{ image: '', description: ''}]);
     useEffect(() => {
-        fetch('https://images-api.nasa.gov/search?media_type=image&q=' + props.SearchQuery)
+//api key git ignore
+        fetch('https://api.serpwow.com/live/search?api_key='+process.env.REACT_APP_API_KEY+'&location=New+York%2CNew+York%2CUnited+States&search_type=images&q=' + props.SearchQuery)
             .then(response => response.json())
             .then(response => {
-                setItemArray(response.collection.items)
+                console.log(response)
+                setItemArray(response.image_results)
             })
             .catch(() => console.log("it didn't work")
             );
@@ -26,12 +27,12 @@ function MediaGrid(props: IMediaGridProps) {
 
     var Cards: JSX.Element[] = [];
     ItemArray.forEach((el: IState, i: Number) => {
-        if (!el || !el.links[0] || !el.data) {
+        if (!el) {
             return;
         }
         Cards.push(
             <Grid key={"card_"+i} item sm={6} md={4} lg={3} className="MediaGridCard">
-                <MediaCard ImageUrl={el['links'][0]['href']} Description={el["data"][0]['description']} />
+                <MediaCard ImageUrl={el.image} Description={el.description} />
             </Grid>)
     })
 
