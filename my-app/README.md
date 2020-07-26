@@ -30,3 +30,7 @@ By using searching bar, search a term that you want to search for. Related image
 The initial displaying images are searching with a term 'Apple'.  
 
 The web application displays the term that user has been searched for.
+
+
+### Pipelines
+![pipelines](./images/pipelines.png)
