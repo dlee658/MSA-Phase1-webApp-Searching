@@ -5,7 +5,8 @@
 React Web App and Azure Pipeline
 
 [Dictionary Web App](https://msa-phase-1-devops.azurewebsites.net/) is an image gallery react application.
-By using google image API, created dictionary with searching bar that displays related image and description of a searching term.
+
+By using google image API, created dictionary with searching bar that displays related image and description of user's searching term.
 
 URL: https://msa-phase-1-devops.azurewebsites.net/
 
