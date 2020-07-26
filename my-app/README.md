@@ -28,3 +28,5 @@ URL: https://msa-phase-1-devops.azurewebsites.net/
 By using searching bar, search a term that you want to search for. Related images and descriptions will be display. 
 
 The initial displaying images are searching with a term 'Apple'.  
+
+The web application displays the term that user has been searched for.
