@@ -34,6 +34,6 @@ The web application displays the term that user has been searched for.
 
 ### Pipelines
 
-Used Azure DevOps pipelines to build and release pipelines of the project. It allows reliably and efficiently compile, build and deploy the react web app project. DevOps pipeline shows every commits on github and shows details of it
+Used Azure DevOps pipelines to build and release pipelines of the project. It allows reliably and efficiently compile, build and deploy the react web app project. DevOps pipeline shows every commits on github and shows details of it.
 ![pipelines](./images/pipelines.png)
 ![releases](./images/releases.png)
