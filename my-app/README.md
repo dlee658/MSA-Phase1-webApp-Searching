@@ -33,5 +33,7 @@ The web application displays the term that user has been searched for.
 
 
 ### Pipelines
+
+Used Azure DevOps pipelines to build and release pipelines of the project. It allows reliably and efficiently compile, build and deploy the react web app project.
 ![pipelines](./images/pipelines.png)
 ![releases](./images/releases.png)
