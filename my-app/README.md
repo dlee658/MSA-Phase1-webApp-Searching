@@ -34,3 +34,4 @@ The web application displays the term that user has been searched for.
 
 ### Pipelines
 ![pipelines](./images/pipelines.png)
+![releases](./images/releases.png)
