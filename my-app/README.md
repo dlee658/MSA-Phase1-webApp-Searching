@@ -16,6 +16,6 @@ The project is written using
   
   -3rd party REST API (Google image API) 
   
-  ![webpage](./my-app/images/webpage.PNG)
+  ![webpage](./my-app/images/webpage.png)
   
 By using searching bar, search a term that you want to search for. Related images and descriptions will be display. The initial displaying images are searching with a term 'Apple'.  
